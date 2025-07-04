@@ -1,0 +1,737 @@
+
+
+
+
+# n = int(input("Nechta son kiritmoqchisiz? "))
+# yigindi = 0
+# for i in range(n):
+#  son = float(input(f"{i+1}-sonni kiriting: "))
+# yigindi += son
+# print(f"\nKiritilgan  sonlarning yig'indisi: {yigindi}")
+
+
+
+
+
+
+
+
+
+# yosh = int(input("Yoshingizni kiriting: "))
+
+# if yosh < 18:
+#  qolgan_yil = 18 - yosh
+#  print(f"Sizga saytga kirishga {qolgan_yil} yil qoldi.")
+# else:
+#    print("Xush kelibsiz!")
+
+
+
+
+
+
+
+
+
+
+# son = int(input("Iltimos, biror son kiriting: "))
+
+# if son > 10 or son < 5:
+#     print("Bu son 10 dan katta yoki 5 dan kichik!")
+# else:
+#     print("Bu son 5 va 10 orasida.")
+
+
+
+
+
+
+
+
+
+
+
+# menu = ('osh','qozonkabob', 'shashlik', 'somsa') 
+# buyurtma =['somsa', 'shashlik', 'manti']
+
+# for taom in buyurtma:
+#    if taom in menu:
+#         print(f"{taom} menuda bor.")
+# else:
+#         print(f"Kechirasiz, {taom} menuda yo'q.")
+
+
+
+
+
+
+
+
+
+
+
+# yosh = int(input("Yoshingiz nechida?>>>"))
+# if yosh>=18: 
+#  print('Xush kelibsiz!')
+# else: 
+#  print ('Kirish mumkin emas!')
+
+
+
+
+
+
+
+
+
+# . Agar foydalanuvchi yoshi 18 yoki undan katta bo‘lsa va ismi Ali bo‘lsa — “Salom, Ali! Sizga saytga kirish ruxsati bor.”
+#  2. Agar foydalanuvchi yoshi 18 yoki undan katta bo‘lsa lekin ismi Ali bo‘lmasa — “Salom! Siz saytga kira olasiz, lekin siz Ali emassiz.”
+#  3. Agar foydalanuvchi yoshi 18 dan kichik bo‘lsa yoki ismi Ali bo‘lsa — “Kechirasiz, sizga to‘liq ruxsat yo‘q.”
+#  4. Aks holda — “Noma’lum holat.”
+
+
+
+
+
+
+
+
+
+
+
+# yosh = int(input("Yoshingiz nechida:\t"))             
+# if yosh <18:
+#     print("Sizga kirish taqiqlangan!")
+
+# else:
+#     if yosh <=18:   
+#         print("xush kelibsiz")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ism = input("Ismingizni kiriting: ")
+# yosh = int(input("Yoshingizni kiriting: "))
+
+# if yosh >= 18 and ism == "Ali":
+#     print("Salom, Ali! Sizga saytga kirish ruxsati bor.")
+# elif yosh >= 18 and ism != "Ali":
+#     print("Salom! Siz saytga kira olasiz, lekin siz Ali emassiz.")
+# elif yosh < 18 or ism == "Ali":
+#     print("Kechirasiz, sizga to‘liq ruxsat yo‘q.")
+# else:
+#     print("Noma’lum holat.")ism = input("Ismingizni kiriting: ")
+# yosh = int(input("Yoshingizni kiriting: "))
+
+# if yosh >= 18 and ism == "Ali":
+#     print("Salom, Ali! Sizga saytga kirish ruxsati bor.")
+# elif yosh >= 18 and ism != "Ali":
+#     print("Salom! Siz saytga kira olasiz, lekin siz Ali emassiz.")
+# elif yosh < 18 or ism == "Ali":
+#     print("Kechirasiz, sizga to‘liq ruxsat yo‘q.")
+# else:
+#     print("Noma’lum holat.")
+
+
+
+
+
+
+
+
+
+
+# ism = input("Ismingizni kiriting: ")
+# yosh = int(input("Yoshingizni kiriting: "))
+
+# if ism == 'ali' and yosh >= 18:
+#     print('Salom, Ali! Sizga saytga kirish ruxsati bor.')
+# elif yosh >= 18 and ism != "Ali":
+#     print("Salom! Siz saytga kira olasiz, lekin siz Ali emassiz.")
+# elif yosh < 18 or ism == "Ali":
+#     print("Kechirasiz, sizga to'liq ruxsat yo'q.")
+# else:
+#     print("Noma'lum holat.")
+
+
+
+
+
+
+
+
+
+# toam= int(input(""))
+
+# menu = ['osh','qazonkabob','shashlik','norin','somsa']
+# buyurtmalar = ["osh","somsa","manti", "shashlik"]
+# if buyurtmalar: # ro'yxatda biror element bo'lsa bu ifoda TRUE qaytaradi
+#  for taom in buyurtmalar:
+#     if taom in menu:
+#       print(f"Menuda {taom} bor")
+# else:
+#      print(f"Kechirasiz, menuda {taom} yo'q")
+# else: # agar ro'yxat bo'sh bo'lsa
+# print("Savatchangiz bo'sh!")
+
+
+
+
+
+
+
+
+# toam= int(input(" 'lag'mon', 'osh','shashlik','somsa','choy'"))
+# byurtmalar=[]
+# if byurtmalar:
+#   for toam in byurtmalar:
+#     if toam in menu:
+#       print(f" menuda{toam} bor")
+
+# else:
+
+#   print(f"kechirasiz,menuda{toam} yo'q" )
+
+
+
+
+
+
+
+
+
+# menu=[" 'lag'mon', 'osh','shashlik','somsa','choy'"]
+# byurtmalar=[]
+
+# narx=0
+# x=int(input("hurmatli mijoz,nechta toam byurasiz"))
+# for i in range(0,x):
+#     byurtma=input(f"(i+1) byurtmani kiriting")
+#     byurtmalar.append(byurtma)
+     
+
+# if byurtmalar:
+#     for toam in byurtmalar:
+#         if toam in menu :
+#             print(f"sizning(toam. title())nomli byurtmangiz qabul qilindi")
+#         else:
+#             print(f"kechirasiz,bu toam menyuda yoq.")
+
+# else:
+#      print("savatchangiz bo'sh")
+      
+# for a in buyurtmalar:
+#     if a =="lag'mon":
+#         narx += 25000
+#     if a =="osh":
+#         narx +=20000
+#     if a == "Shashlik":
+#         narx+=15000
+#     if a == "somsa":
+#         narx+=5000
+#     if a =="choy":
+#         narx+=3000
+# print(f"Sizning buyurtmalar soningiz: {len(buyurtmalar)}")
+# print(f"Sizning tolovingiz: {narx}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+# kitoblar = {}
+
+# kitoblar["Python"] = "Guido van Rossum"
+# kitoblar["Java"] = "James Gosling"
+# kitoblar["C++"] = "Bjarne Stroustrup"
+
+# print(kitoblar)
+
+
+
+
+
+
+
+
+
+
+# talabalar = {
+#     "Ali": {"yosh": 20, "kurs": 2, "universitet": "TATU"},
+#     "Vali": {"yosh": 21, "kurs": 3, "universitet": "SAMDU"}
+# }
+
+# # 1. "Ali" ismli talabaning universitetini chiqarish
+# print("Ali'ning universiteti:", talabalar["Ali"]["universitet"])
+
+# # 2. "Vali" ismli talabaning kursini o'zgartirish (masalan, 4-kurs qilamiz)
+# talabalar["Vali"]["kurs"] = 4
+
+# # Yangi lug'atni chop etish
+# print("Yangilangan talabalar lug'ati:")
+# print(talabalar)
+
+
+
+# from turtle import*
+
+# bgcolor("black")
+# speed(0)
+# for i in range(200):
+#     color("red")
+#     circle(i*0.6)
+#     color("cyan")
+#     circle(i*0.4)
+#     right(4)
+#     forward(3)
+# done()
+
+
+
+
+
+
+
+
+
+# from turtle import *
+# import colorsys
+
+# bgcolor("black")
+# speed(0)
+# hideturtle()
+
+# n = 200
+# for i in range(n):
+#     c = colorsys.hsv_to_rgb(i/n, 1, 1)  # HSV dan RGB ga o'tkazish
+#     color(c)
+#     circle(i * 0.6)
+#     right(4)
+#     forward(3)
+
+# done()
+
+
+
+
+
+
+
+
+# from turtle import *
+# import colorsys
+
+# bgcolor("black")
+# speed(0)
+# hideturtle()
+
+# n = 120  # Nechta shakl chiziladi
+# h = 0    # Rang parametri
+
+# for i in range(n):
+#     color(colorsys.hsv_to_rgb(h, 1, 1))  # Har safar yangi rang
+#     begin_fill()
+#     for j in range(6):  # Har bir shakl — 6 qirrali (gulli ko‘rinish)
+#         forward(100 - i)  # Radius har safar kichiklashadi
+#         right(60)
+#     end_fill()
+#     right(11)  # Har bir gul o‘z o‘qida buriladi
+#     h += 1/n   # Rangni yangilash
+
+# done()
+
+
+
+
+
+
+
+# from turtle import *
+# import colorsys
+
+# bgcolor("black")
+# speed(0)
+# hideturtle()
+
+# n = 360
+# h = 0
+
+# for i in range(n):
+#     color(colorsys.hsv_to_rgb(h, 1, 1))
+#     forward(i * 0.5)
+#     right(144)  # Yulduzsimon burilish
+#     h += 1/n
+
+# done()
+
+
+
+
+
+
+
+
+# from turtle import *
+# import colorsys
+
+# bgcolor("black")
+# speed(0)
+# hideturtle()
+
+# n = 100
+# h = 0
+
+# for i in range(n):
+#     color(colorsys.hsv_to_rgb(h, 1, 1))
+#     for _ in range(4):
+#         forward(100 - i)
+#         right(90)
+#     right(15)
+#     h += 1/n
+
+# done()
+# from turtle import *
+# import colorsys
+
+# bgcolor("black")
+# speed(0)
+# hideturtle()
+
+# n = 150  # Qadamlar soni
+# h = 0    # Rang uchun boshlang‘ich qiymat
+
+# for i in range(n):
+#     # Har bir bosqich uchun rangni o‘zgartirish
+#     rgb = colorsys.hsv_to_rgb(h, 1, 1)
+#     color(rgb)
+
+#     # Naqsh chizish
+#     forward(i * 2)
+#     right(59)
+
+#     h += 1/n  # HSV rang bo‘yicha keyingi qiymatga o‘tish
+
+# done()
+
+
+
+
+
+
+
+
+# talabalar = {
+#     "Ali": {"yosh": 20, "kurs": 2, "universitet": "TATU"},
+#     "Vali": {"yosh": 21, "kurs": 3, "universitet": "SAMDU"}
+# }
+
+
+# print("Ali'ning universiteti:", talabalar["Ali"]["universitet"])
+
+
+# talabalar["Vali"]["kurs"] = 4
+
+
+# print("Yangilangan talabalar lug'ati:")
+# print(talabalar)
+
+
+
+
+
+
+
+
+# talabalar = {
+#      "Ali": {"yosh": 20, "kurs": 2, "universitet": "TATU"},
+#      "Vali": {"yosh": 21, "kurs": 3, "universitet": "SAMDU"}
+#  }
+
+# talabalar=("Ali'ning universitetli:",talabalar["Ali"]["universitet"])
+
+
+# talabalar["Vali"]["kurs"] = 4 
+
+# print("Yangilangan  talabalar lug'ati:")
+# print(talabalar)
+
+
+
+
+# ballar = {"Ali": 85, "Vali": 92, "Hasan": 78, "Gani": 99}
+# eng_yuqori_ = max(ballar, key=ballar.get)
+# print("Eng yuqori ball olgan talaba:", eng_yuqori_ball_olgan)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Foydalanuvchidan bir nechta (masalan, 10 ta) ismlar kiritilishi so‘raladi. Dastur qaysi ism eng ko‘p marta kiritilganini topishi kerak.
+
+# Misol:
+# Ism kiriting (1/10): Ali  
+# Ism kiriting (2/10): Vali  
+# Ism kiriting (3/10): Ali  
+# Ism kiriting (4/10): Anvar  
+# Ism kiriting (5/10): Vali  
+# Ism kiriting (6/10): Ali  
+# Ism kiriting (7/10): Jasur  
+# Ism kiriting (8/10): Ali  
+# Ism kiriting (9/10): Vali  
+# Ism kiriting (10/10): Anvar
+
+# Natija: Eng ko‘p kiritilgan ism: Ali (4 marta)
+# ✅ Talablar:
+# input() dan foydalaning
+
+# list va for yordamida ism saqlang
+
+# max() funksiyasiz ishlang
+
+# Har bir ismdan nechta borligini hisoblang
+
+# 💡 Yordamchi maslahatlar:
+# Har bir ismga count() metodini ishlatib ko‘ring.
+
+# Dastlab eng ko‘p ko‘rinishni va ismini alohida o‘zgaruvchida saqlang.
+
+# Har bir ismni tekshirib chiqib, eng_kop degan o‘zgaruvchini yangilab boring.
+
+# 🧪 Boshlang‘ich namunaviy kod (to‘liq emas, o‘quvchilarni o‘ylashga majbur qiladi):
+
+# ismlar = []
+
+# 
+
+
+
+
+
+# ismlar = []
+# for i in range(10):
+#     ism = input(f"Ism kiriting ({i+1}/10): ")
+#     ismlar.append(ism)
+# eng_kop_ism = ""
+# eng_kop_soni = 0
+
+# for ism in ismlar:
+#     takror_soni = ismlar.count(ism)
+# if takror_soni>eng_kop_soni:
+#             eng_kop_soni = takror_soni
+#             eng_kop_ism = ism
+# print(f"Eng ko‘p kiritilgan ism: {eng_kop_ism} ({eng_kop_soni} marta)")
+
+
+
+
+
+
+# # 4-dars
+# fasllar= int(input("fasilarni (1-12)"))
+# if 3 <= Fasl  <= 5:
+#   print(" bu bahor fasli!")
+# elif 6 <= fasl <=8:
+#   print ("bu yoz fasli!")
+# elif  9 <= fasl <= 11:
+#   print("bu kuz fasli!")
+# elif 12  or 1 and 2:
+#   print("bu fasl qish !")
+# else:
+#   print("bu hato ! ")
+
+
+# Tempuratura =int(input("Tempraturaga 3ta son kiriting"))
+# if Tempuratura  ==20 or 30:
+#     print("bahor")
+# elif  Tempuratura == 35 or 40:
+#     print("yoz")
+# elif Tempuratura == 25 or 35:
+#     print("kuz")
+    
+
+
+
+
+
+
+
+# Lug'at ichida ro'yxat:
+# O'zingiz haqingizda lug'at tuzing va bilgan dasturlash tillaringizni ro'yxat sifatida saqlang. Uni for sikli yordamida 
+# ekranga chiqaring.
+
+
+# malumot ={
+# # "ism":"Hasanboy",
+# # "yosh": 14,
+# # "dasturlar":("pathon",)
+# # }
+# # print("malumot")
+
+
+# # 1-topshiriq
+# # x = {
+# #     "ism":"hasan",
+# # #   
+
+
+
+
+#     # k={"nomi":"ufq", "muallif",:"cho'lpon"}
+
+# # kitoblar={}
+# # kitoblar["O'tgan Kunlar"]="Abdulla Qodriy","1925"
+# # kitoblar["Mehrobdan Chayon"]= "Abdulla Qodriy","1930"
+# # kitoblar["Ufq"]="Said Ahmad","1976"
+# # kitoblar["Chinor"]="Asqad Muhtor","2018"
+# # kitoblar["Ko'xna Dunyo"]="Odil Yoqubov","2015"
+# # # print(kitoblar)
+# #   "yosh":"14",
+# # #     "jinsi":"erkak",
+# # #     "Dastur":["Python","html","C++","javaskirip"]
+# # # }
+# # # print(x)
+
+
+# # # #2-topsiriq
+# # # k = {
+# # #     "nomi":"alpomish",
+# # #     "mualif":"HudoyberdiTo'xtaboyev",
+# # #     "yili":"1995",
+
+
+# # #     "nomi":"o'tkankunlar",
+# # #     "mualif":"O'tkirHoshimov",
+# # #     "yili":"1999"
+
+
+# # #     "nomi:""
+# # # }
+# # # print(k)
+
+
+
+
+
+# # kitoblar = {
+# #     "nomi":[ "Alkimyogar"],
+# #     "muallif": "Paulo Koelyo",
+# #     "yili": 1988,
+# #     "nomi": "1984",
+# #     "muallif": "Jorj Oruell",
+# #     "yili": 1949,
+# #     "nomi": "Tohir va Zuhra", 
+# #     "muallif": "O'zbek xalq og'zaki ijodi",
+# #     "yili": 1200,
+# #     "nomi": "Ufq",
+# #     "muallif": "Cho'lpon",
+# #     "yili": 1931,
+# #     "nomi": "Yulduzli tunlar",
+# #     "muallif": "Pirimqul Qodirov",
+# #     "yili": 1972
+# # }
+
+
+
+
+
+
+# # 🔢 Ma’lumotlar (input)
+# # # 
+# students = {
+#     "Ali": {"math": 90, "english": 85, "science": 88},
+#     "Vali": {"math": 92, "english": 80, "science": 86},
+#     "Sami": {"math": 88, "english": 90, "science": 91},
+#     "Karim": {"math": 92, "english": 90, "science": 87},
+#     "Zafar": {"math": 92, "english": 90, "science": 87},  # Shu Karim bilan teng
+# }
+
+
+
+
+# talabalar = {
+#     "Ali": {"math": 90, "english": 85, "science": 88},
+#     "Vali": {"math": 92, "english": 80, "science": 86},
+#     "Sami": {"math": 88, "english": 90, "science": 91},
+#     "Karim": {"math": 92, "english": 90, "science": 87},
+#     "Zafar": {"math": 92, "english": 90, "science": 87},  
+# }
+
+
+
+# a = max(talabalar)
+
+
+# qiymatlar = {
+
+# }
+# for ism in talabalar:
+#     x = sum(talabalar[ism].values()) / len(talabalar[ism])
+#     qiymatlar[ism] = x
+
+# print("Eng katta son:", a)
+
+
+
+
+
+
+
+
+
+
+
+# talabalar = {
+#     "Ali": {"math": 90, "english": 85, "science": 88},
+#     "Vali": {"math": 92, "english": 80, "science": 86},
+#     "Sami": {"math": 88, "english": 90, "science": 91},
+#     "Karim": {"math": 92, "english": 90, "science": 87},
+#     "Zafar": {"math": 92, "english": 90, "science": 87},  
+
+
+
+student ={
+"ism":"sardor",
+"fanlar":{
+"matematika":5,
+"fizika": 3,
+"kimyo":4,
+"tarix":5
+  }
+}
+for key, val in student ["fanlar"].items():
+   print(f"{key} -{val}")
+avg=sum(student["fanlar"].values ())/ len (student["fanlar"])
+if avg>4.5:
+   print("alochi:{avg}")
+else:
+   print("oddiy talaba:{avg}")
